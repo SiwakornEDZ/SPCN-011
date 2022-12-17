@@ -57,7 +57,10 @@
 # คำสั่งติดตั้ง Editor nano
 - sudo -i ตัดการพิม sudo
 - apt install nano
-- nano /etc/sudores.h/siwakorn
+- nano /etc/sudoers.d/siwakorn198
+- siwakorn198 ALL=(ALL) NOPASSED: ALL
+![image](https://user-images.githubusercontent.com/87377798/208244500-a02e66d0-deae-4332-bd65-4ce263b3abe5.png)
+
 
 
 
