@@ -125,7 +125,7 @@ apt install nano
 ```
 
 ```
-nano /etc/sudoers.d/siwakorn198
+nano /etc/sudoers.d/siwakorn189
 ```
 
 ```
@@ -268,11 +268,42 @@ ln -s /etc/machine-id /var/lib/dbus/machine-id    //link ข้อมูลใ�
 ls -l /var/lib/dbus/machine-id                    //เลือกทั้งหมด
 reboot                                            
 ```
+- เปลี่ยน ip เสร็จสิ้น
+
+- clone 1
+
+![image](https://user-images.githubusercontent.com/87377798/208251169-91ba1f1a-9d3e-4547-88d1-570980d2f722.png)
+
+- clone 2
+
+![image](https://user-images.githubusercontent.com/87377798/208251177-53aaec90-7bd0-4bf3-9701-6f33643bb25b.png)
 
 # 2. create vm from other os
-  
-  
-  
+- คลิกที่ create VM และตั้งชื่อเป็น siwakorn-otherOS-196
+- 
+![image](https://user-images.githubusercontent.com/87377798/208251238-d966a46e-d77d-4a3c-bd27-95eddb6aad41.png)
+
+- เลือก os debian-live-11.5.0-amd64-xfce.iso
+
+![image](https://user-images.githubusercontent.com/87377798/208251276-694a2f26-5221-4bea-a859-fc7f14fe50e3.png)
+
+- เปลี่ยน timezone ให้เป็น Bangkok
+
+![image](https://user-images.githubusercontent.com/87377798/208251549-14b09cfb-113a-4f10-bd66-bc4a934cfe64.png)
+
+- เปิดใช้งาน QEMU Guest Agent
+
+``
+apt update && apt -y install qemu-guest-agent
+systemctl enable qemu-guest-agent
+systemctl enable qemu-guest-agent
+systemctl start qemu-guest-agent
+systemctl status qemu-guest-agent
+``
+
+เสร็จสิ้นการเปิดใช้งาน
+
+
 # 3.create container template (select from CT list)
  - คลิกที่ Create CT
  ![314428517_1526729121088217_7066711563116917479_n](https://user-images.githubusercontent.com/87377798/208245886-9e74ed75-00b8-40f9-b1b2-37f0bcf635fc.png)
