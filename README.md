@@ -203,7 +203,7 @@ crontab -e
 - ตั้งชื่อ VM ที่เรา clone ออกมาทั้ง 2 ตัว
 
 - ตัวที่ 1
-- 
+
 ![image](https://user-images.githubusercontent.com/87377798/208248138-a72ac484-886c-49e0-9a61-42a4740dfcaa.png)
 
 - ตัวที่ 2
@@ -279,6 +279,7 @@ reboot
 ![image](https://user-images.githubusercontent.com/87377798/208251177-53aaec90-7bd0-4bf3-9701-6f33643bb25b.png)
 
 # 2. create vm from other os
+
 - คลิกที่ create VM และตั้งชื่อเป็น siwakorn-otheros-196
 
 ![image](https://user-images.githubusercontent.com/87377798/208266729-f23067e0-c900-462e-981d-89bb302a2c15.png)
@@ -305,8 +306,11 @@ systemctl status qemu-guest-agent
 เสร็จสิ้นการเปิดใช้งาน
 
 # 3.create container template (select from CT list)
+
  - คลิกที่ Create CT
+ 
  ![314428517_1526729121088217_7066711563116917479_n](https://user-images.githubusercontent.com/87377798/208245886-9e74ed75-00b8-40f9-b1b2-37f0bcf635fc.png)
+ 
  - ตั้งชื่อ ใส่รหัสและ LOAD SSH Public Key File
  
  ![image](https://user-images.githubusercontent.com/87377798/208246167-a1bb2852-d04a-4e7e-8149-b468086aca8b.png)
