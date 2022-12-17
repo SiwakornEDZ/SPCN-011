@@ -54,6 +54,10 @@
 - sudo systemctl status qemu-guest-agent
 
 ![image](https://user-images.githubusercontent.com/87377798/208243764-18d95e9c-dcdd-4942-adde-3fd44902fbcf.png)
+# คำสั่งติดตั้ง Editor nano
+- sudo -i ตัดการพิม sudo
+- apt install nano
+- nano /etc/sudores.h/siwakorn
 
 
 
