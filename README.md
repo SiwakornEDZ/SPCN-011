@@ -279,21 +279,21 @@ reboot
 ![image](https://user-images.githubusercontent.com/87377798/208251177-53aaec90-7bd0-4bf3-9701-6f33643bb25b.png)
 
 # 2. create vm from other os
-- คลิกที่ create VM และตั้งชื่อเป็น siwakorn-otherOS-202
+- คลิกที่ create VM และตั้งชื่อเป็น siwakorn-otheros-196
 
-![image](https://user-images.githubusercontent.com/87377798/208257152-c55f64f8-13d4-4df9-9592-3bc447355684.png)
-
+![image](https://user-images.githubusercontent.com/87377798/208266729-f23067e0-c900-462e-981d-89bb302a2c15.png)
 
 - เลือก os kali-linux-2022.4-live-amd64.iso
 
 ![image](https://user-images.githubusercontent.com/87377798/208257186-ecd2542c-7c35-4218-a930-cdd86eaca82f.png)
-
 
 - เปลี่ยน timezone ให้เป็น Bangkok
 
 ![image](https://user-images.githubusercontent.com/87377798/208257332-98771616-e068-47d4-a77c-291c5e2deaa4.png)
 
 - เปิดใช้งาน QEMU Guest Agent
+
+![image](https://user-images.githubusercontent.com/87377798/208267642-6a597980-5185-4dce-8fc9-3965d12598f4.png)
 
 ``
 apt update && apt -y install qemu-guest-agent
