@@ -107,6 +107,9 @@
  - สร้างเสร็จสิ้น
  
  ![image](https://user-images.githubusercontent.com/87377798/208246483-af447f36-0b27-402a-96a5-ae95ab8f40af.png)
+ - รันผ่าน Console
+ ![image](https://user-images.githubusercontent.com/87377798/208246720-c694d652-ea1f-45b5-a051-c82f9ca31bed.png)
+
 
  
  
