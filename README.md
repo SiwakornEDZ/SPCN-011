@@ -274,20 +274,31 @@ reboot
  ![image](https://user-images.githubusercontent.com/87377798/208246720-c694d652-ea1f-45b5-a051-c82f9ca31bed.png)
  
  # คำสั่งติดตั้งและใช้งาน htop
- - apt install htop
- - htop
+ 
+ ```
+ apt install htop
+ ```
+ 
+ ```
+ htop
+ ```
  
  ![image](https://user-images.githubusercontent.com/87377798/208246899-eab9b05b-2241-46ab-b6c6-b6e42ae75023.png)
  
  # คำสั่งสร้างไฟล์และอ่านไฟล์
  สร้างไฟล์ชื่อ 2456.data ขนาด 2GB
- - dd if=/dev/zero of=2456.data bs=512 count=2M
+ 
+ ```
+ dd if=/dev/zero of=2456.data bs=512 count=2M
+ ```
  
  ![image](https://user-images.githubusercontent.com/87377798/208247177-ae6ea0e2-72b8-48c7-8f1c-7df854e3a8b2.png)
  
  อ่านไฟล์ชื่อ 2456.data
  
- - dd if=2456.data of=/dev/null bs=512 count=2M
+ ```
+ dd if=2456.data of=/dev/null bs=512 count=2M
+ ```
  
  ![image](https://user-images.githubusercontent.com/87377798/208247244-2ed95823-146b-4a34-8d4e-d5b5048747fb.png)
 
