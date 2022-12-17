@@ -86,6 +86,28 @@
 # 3.create container template (select from CT list)
  - คลิกที่ Create CT
  ![314428517_1526729121088217_7066711563116917479_n](https://user-images.githubusercontent.com/87377798/208245886-9e74ed75-00b8-40f9-b1b2-37f0bcf635fc.png)
+ - ตั้งชื่อ ใส่รหัสและ LOAD SSH Public Key File
+ ![image](https://user-images.githubusercontent.com/87377798/208246167-a1bb2852-d04a-4e7e-8149-b468086aca8b.png)
+ - เลือก Template
+ ![image](https://user-images.githubusercontent.com/87377798/208246201-27447e12-146a-4974-a522-d2e2e6372f09.png)
+ - เลือก Disk 
+ ![image](https://user-images.githubusercontent.com/87377798/208246251-a0802ca4-12bf-4ebf-a3a1-619d9bf0adfa.png)
+ - เลือก Cpu
+ ![image](https://user-images.githubusercontent.com/87377798/208246269-a24bc473-1b18-4824-94af-8d1afdf54198.png)
+ - เลือก Memory
+ ![image](https://user-images.githubusercontent.com/87377798/208246283-da128b08-97ab-4224-9b0d-cf11bf0b6540.png)
+ - เลือก IPv4 เป็น DHCP และ IPv6 เป็น SLAAC ดังรูป
+ ![image](https://user-images.githubusercontent.com/87377798/208246369-8ff6a0dc-31dd-4b4b-a101-b9c7a980372c.png)
+ - สร้างเสร็จสิ้น
+ ![image](https://user-images.githubusercontent.com/87377798/208246483-af447f36-0b27-402a-96a5-ae95ab8f40af.png)
+
+ 
+ 
+
+
+
+
+
 
 
 
