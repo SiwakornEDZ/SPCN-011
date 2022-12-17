@@ -64,16 +64,20 @@
 - apt install iputils-ping
 ![image](https://user-images.githubusercontent.com/87377798/208244673-ac9b68d9-d931-49ba-8b45-47a429a706e4.png)
 - ping 1.1.1.1
+
 ![image](https://user-images.githubusercontent.com/87377798/208244717-dbe72a1a-4b0d-4f26-8a59-647b1ce51c0b.png)
+
 # คำสั่งติดตั้งและใช้งาน dns-dig
 - apt install dnsutils
 - dig
+
 ![image](https://user-images.githubusercontent.com/87377798/208244834-325297ed-142f-47cc-8da4-ae5f3e8a83fc.png)
 # คำสั่งติดตั้งและใช้งาน ntpdate
 - apt install ntpdate
 ![image](https://user-images.githubusercontent.com/87377798/208244901-90c280ce-5603-4792-b45b-1bd9c96a57d3.png)
 - ntpdate th.pool.ntp.org
 ![image](https://user-images.githubusercontent.com/87377798/208244976-c72658f6-58b8-43f2-97d9-85eccd83e0fc.png)
+
 # คำสั่งติดตั้งและใช้งาน crontab
 - apt install cron 
 - crontab -e
