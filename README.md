@@ -20,6 +20,17 @@
 ![image](https://user-images.githubusercontent.com/87377798/208241896-817b7686-ded9-48be-b5fe-55896fdc835b.png)
 # 2.ทำการติดตั้ง Ununtu
 ![image](https://user-images.githubusercontent.com/87377798/208241968-95d921e6-46c0-429d-8452-1187fc7eab46.png)
+![image](https://user-images.githubusercontent.com/87377798/208242012-e650a89c-b0bc-44c3-a322-c55f952c31d8.png)
+![image](https://user-images.githubusercontent.com/87377798/208242025-79ad1964-a2dc-40f9-954a-da9e862104be.png)
+![image](https://user-images.githubusercontent.com/87377798/208242044-37ed7f50-b1ca-422d-9c51-52f5099523b1.png)
+![image](https://user-images.githubusercontent.com/87377798/208242086-1005960f-a014-45e7-bc54-800d6633ffcb.png)
+![image](https://user-images.githubusercontent.com/87377798/208242105-33200f86-0f15-405a-afb2-172d4da7f65e.png)
+![image](https://user-images.githubusercontent.com/87377798/208242114-5394a91e-4328-4703-b067-24452c603339.png)
+![image](https://user-images.githubusercontent.com/87377798/208242135-f3d9d66d-16ef-4483-8e1f-0166f904e91f.png)
+![image](https://user-images.githubusercontent.com/87377798/208242164-83308920-5870-4774-809e-86fc04ce2a99.png)
+![image](https://user-images.githubusercontent.com/87377798/208242174-0a1614c9-48e2-4d1d-a638-dd7fb204b31d.png)
+![image](https://user-images.githubusercontent.com/87377798/208242242-8bea8cf2-be48-49ea-b207-56a4b8c0b13b.png)
+
 
 
 
