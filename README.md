@@ -80,8 +80,36 @@
 - พิมคำสั่งใน Editor @hourly /usr/sbin/ntpdate th.pool.ntp.org
 ![image](https://user-images.githubusercontent.com/87377798/208245215-e6ac9c94-fb77-4d5a-8012-650b8b2e5b52.png)
 
-# 2.clone master vm to tamplate
-  - กดคลิกขวาที่ VM ที่เราสร้างไว้ และเลือก Convert to template
+# clone master vm to tamplate
+- กดคลิกขวาที่ VM ที่เราสร้างไว้ และเลือก Convert to template
+
+![image](https://user-images.githubusercontent.com/87377798/208247970-2bbc5e54-a552-4a37-a7ab-7599fa8c7cdb.png)
+
+- จะได้ตัว VM เป็นแบบ template ดังรูป
+
+![image](https://user-images.githubusercontent.com/87377798/208248036-a1b09d65-3333-4816-9fde-b0afac525cf8.png)
+
+# clone from template สร้าง vm ใหม่จำนวน 2 vm
+- กดคลิกขวาที่ template และเลือก clone
+
+![image](https://user-images.githubusercontent.com/87377798/208248091-038a78d5-8b04-4247-aa2f-fffbd7d487d0.png)
+
+- ตั้งชื่อ VM ที่เรา clone ออกมาทั้ง 2 ตัว
+
+- ตัวที่ 1
+- 
+![image](https://user-images.githubusercontent.com/87377798/208248138-a72ac484-886c-49e0-9a61-42a4740dfcaa.png)
+
+- ตัวที่ 2
+
+![image](https://user-images.githubusercontent.com/87377798/208248180-c3d31dcf-9af1-4922-89ca-aafdffcc3253.png)
+
+sudo hostnamectl set-hostname [ชื่อที่ต้องการเปลี่ยน]
+
+
+# 2. create vm from other os
+  
+  
   
 # 3.create container template (select from CT list)
  - คลิกที่ Create CT
