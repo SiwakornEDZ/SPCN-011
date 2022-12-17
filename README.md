@@ -69,64 +69,119 @@
 ![image](https://user-images.githubusercontent.com/87377798/208242689-92cc34d9-ee85-42fa-91ae-3ad194500d35.png)
 
 # คำสั่ง set time 
-- date
-- sudo timedatectl set-timezone Asia/Bangkok
+
+```
+date
+```
+
+```
+sudo timedatectl set-timezone Asia/Bangkok
+```
 
 ![image](https://user-images.githubusercontent.com/87377798/208243350-559667c4-bafa-4c73-b6c7-39d165a8280d.png)
 
 # คำสั่ง check Storage
-- df -h
+
+```
+df -h
+```
 
 ![image](https://user-images.githubusercontent.com/87377798/208243366-e01da2c7-8303-4b6f-a295-a077cbcaa287.png)
 
 # คำสั่ง upgrade packgage
-- sudo apt upgrade; sudo apt upgrade -y
+
+```
+sudo apt upgrade; sudo apt upgrade -y
+```
 
 ![image](https://user-images.githubusercontent.com/87377798/208243338-780adb8b-7c3f-4618-a975-c9a4c7f8839d.png)
 # คำสั่ง install QeMU Agent
-- sudo apt install qemu-guest-agent
+
+```
+sudo apt install qemu-guest-agent
+```
 
 ![image](https://user-images.githubusercontent.com/87377798/208243656-8c9b0c30-aa00-4d5d-96dd-2afd8c6168fd.png)
 # คำสั่ง  QeMU Agent
-- sudo systemctl start qemu-guest-agent
-- sudo systemctl status qemu-guest-agent
+
+```
+sudo systemctl start qemu-guest-agent
+```
+
+```
+sudo systemctl status qemu-guest-agent
+```
 
 ![image](https://user-images.githubusercontent.com/87377798/208243764-18d95e9c-dcdd-4942-adde-3fd44902fbcf.png)
 
 # คำสั่งติดตั้ง Editor nano
-- sudo -i ตัดการพิม sudo
-- apt install nano
-- nano /etc/sudoers.d/siwakorn198
-- siwakorn198 ALL=(ALL) NOPASSED: ALL
+
+```
+sudo -i //ตัดการพิม sudo
+```
+
+```
+apt install nano
+```
+
+```
+nano /etc/sudoers.d/siwakorn198
+```
+
+```
+siwakorn198 ALL=(ALL) NOPASSED: ALL
+```
 
 ![image](https://user-images.githubusercontent.com/87377798/208244500-a02e66d0-deae-4332-bd65-4ce263b3abe5.png)
 
 # คำสั่งติดตั้งและใช้งาน ping 
-- apt install iputils-ping
+
+```
+apt install iputils-ping
+```
 
 ![image](https://user-images.githubusercontent.com/87377798/208244673-ac9b68d9-d931-49ba-8b45-47a429a706e4.png)
 
-- ping 1.1.1.1
+```
+ping 1.1.1.1
+```
 
 ![image](https://user-images.githubusercontent.com/87377798/208244717-dbe72a1a-4b0d-4f26-8a59-647b1ce51c0b.png)
 
 # คำสั่งติดตั้งและใช้งาน dns-dig
-- apt install dnsutils
-- dig
+```
+apt install dnsutils
+```
+
+```
+dig
+```
 
 ![image](https://user-images.githubusercontent.com/87377798/208244834-325297ed-142f-47cc-8da4-ae5f3e8a83fc.png)
 
 # คำสั่งติดตั้งและใช้งาน ntpdate
-- apt install ntpdate
+
+```
+apt install ntpdate
+```
+
 ![image](https://user-images.githubusercontent.com/87377798/208244901-90c280ce-5603-4792-b45b-1bd9c96a57d3.png)
 
-- ntpdate th.pool.ntp.org
+```
+ntpdate th.pool.ntp.org
+```
 
 ![image](https://user-images.githubusercontent.com/87377798/208244976-c72658f6-58b8-43f2-97d9-85eccd83e0fc.png)
 
 # คำสั่งติดตั้งและใช้งาน crontab
-- apt install cron 
-- crontab -e
+
+```
+ apt install cron 
+```
+
+```
+crontab -e
+```
 - พิมคำสั่งใน Editor @hourly /usr/sbin/ntpdate th.pool.ntp.org
 
 ![image](https://user-images.githubusercontent.com/87377798/208245215-e6ac9c94-fb77-4d5a-8012-650b8b2e5b52.png)
