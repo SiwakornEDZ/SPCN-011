@@ -52,6 +52,7 @@
 # คำสั่ง  QeMU Agent
 - sudo systemctl start qemu-guest-agent
 - sudo systemctl status qemu-guest-agent
+
 ![image](https://user-images.githubusercontent.com/87377798/208243764-18d95e9c-dcdd-4942-adde-3fd44902fbcf.png)
 
 
