@@ -34,6 +34,19 @@
 ![image](https://user-images.githubusercontent.com/87377798/208242359-785bfdac-39ad-4678-ad6f-0878f8313464.png)
 ![image](https://user-images.githubusercontent.com/87377798/208242366-2d1fa090-e786-4359-91de-452a8812d706.png)
 ![image](https://user-images.githubusercontent.com/87377798/208242689-92cc34d9-ee85-42fa-91ae-3ad194500d35.png)
+# คำสั่ง set time 
+- date
+- sudo timedatectl set-timezone Asia/Bangkok
+![image](https://user-images.githubusercontent.com/87377798/208243350-559667c4-bafa-4c73-b6c7-39d165a8280d.png)
+# คำสั่ง check Storage
+- df -h
+![image](https://user-images.githubusercontent.com/87377798/208243366-e01da2c7-8303-4b6f-a295-a077cbcaa287.png)
+# คำสั่ง upgrade packgage
+- sudo apt upgrade; sudo apt upgrade -y
+![image](https://user-images.githubusercontent.com/87377798/208243338-780adb8b-7c3f-4618-a975-c9a4c7f8839d.png)
+
+
+
 
 
 
