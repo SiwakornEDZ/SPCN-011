@@ -46,6 +46,18 @@
 # คำสั่ง upgrade packgage
 - sudo apt upgrade; sudo apt upgrade -y
 ![image](https://user-images.githubusercontent.com/87377798/208243338-780adb8b-7c3f-4618-a975-c9a4c7f8839d.png)
+# คำสั่ง install QeMU Agent
+- sudo apt install qemu-guest-agent
+![image](https://user-images.githubusercontent.com/87377798/208243656-8c9b0c30-aa00-4d5d-96dd-2afd8c6168fd.png)
+# คำสั่ง  QeMU Agent
+- sudo systemctl start qemu-guest-agent
+- sudo systemctl status qemu-guest-agent
+![image](https://user-images.githubusercontent.com/87377798/208243764-18d95e9c-dcdd-4942-adde-3fd44902fbcf.png)
+
+
+
+
+
 
 
 
