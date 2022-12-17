@@ -12,6 +12,16 @@
 ![316935628_1593933581076656_1650177453456337731_n (1)](https://user-images.githubusercontent.com/87377798/208241583-1d083b5b-eae2-4642-8993-e284c95f2cfc.png)
 # เลือก Socket และ Core ของ CPU ในระบบ Cpucore(1-2core)
 ![image](https://user-images.githubusercontent.com/87377798/208241671-4c7edcc6-702a-4bae-a7c2-b706059ce7d3.png)
+# เลือกความจุของ Memory (2048 Mib)
+![image](https://user-images.githubusercontent.com/87377798/208241739-4f3fcfa2-0b68-40c4-9ac8-8d51ad4e68b1.png)
+# เลือก Network Device
+![image](https://user-images.githubusercontent.com/87377798/208241789-aa0113ab-7004-4753-abd3-e9850949b917.png)
+# เมื่อกด Create เสร็จสิ้นจะได้ result ดังรูป
+![image](https://user-images.githubusercontent.com/87377798/208241896-817b7686-ded9-48be-b5fe-55896fdc835b.png)
+# 2.ทำการติดตั้ง Ununtu
+![image](https://user-images.githubusercontent.com/87377798/208241968-95d921e6-46c0-429d-8452-1187fc7eab46.png)
+
+
 
 
 
