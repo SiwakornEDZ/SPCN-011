@@ -279,23 +279,24 @@ reboot
 ![image](https://user-images.githubusercontent.com/87377798/208251177-53aaec90-7bd0-4bf3-9701-6f33643bb25b.png)
 
 # 2. create vm from other os
-- คลิกที่ create VM และตั้งชื่อเป็น siwakorn-otherOS-196
+- คลิกที่ create VM และตั้งชื่อเป็น siwakorn-otherOS-202
 
-![image](https://user-images.githubusercontent.com/87377798/208251238-d966a46e-d77d-4a3c-bd27-95eddb6aad41.png)
+![image](https://user-images.githubusercontent.com/87377798/208257152-c55f64f8-13d4-4df9-9592-3bc447355684.png)
 
-- เลือก os debian-live-11.5.0-amd64-xfce.iso
 
-![image](https://user-images.githubusercontent.com/87377798/208251276-694a2f26-5221-4bea-a859-fc7f14fe50e3.png)
+- เลือก os kali-linux-2022.4-live-amd64.iso
+
+![image](https://user-images.githubusercontent.com/87377798/208257186-ecd2542c-7c35-4218-a930-cdd86eaca82f.png)
+
 
 - เปลี่ยน timezone ให้เป็น Bangkok
 
-![image](https://user-images.githubusercontent.com/87377798/208251549-14b09cfb-113a-4f10-bd66-bc4a934cfe64.png)
+![image](https://user-images.githubusercontent.com/87377798/208257332-98771616-e068-47d4-a77c-291c5e2deaa4.png)
 
 - เปิดใช้งาน QEMU Guest Agent
 
 ``
 apt update && apt -y install qemu-guest-agent
-systemctl enable qemu-guest-agent
 systemctl enable qemu-guest-agent
 systemctl start qemu-guest-agent
 systemctl status qemu-guest-agent
