@@ -81,7 +81,7 @@
 ![image](https://user-images.githubusercontent.com/87377798/208245215-e6ac9c94-fb77-4d5a-8012-650b8b2e5b52.png)
 
 # 2.clone master vm to tamplate
--- กดคลิกขวาที่ VM ที่เราสร้างไว้ และเลือก Convert to template
+  - กดคลิกขวาที่ VM ที่เราสร้างไว้ และเลือก Convert to template
 
 
 
