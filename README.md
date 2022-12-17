@@ -280,7 +280,7 @@ reboot
 
 # 2. create vm from other os
 - คลิกที่ create VM และตั้งชื่อเป็น siwakorn-otherOS-196
-- 
+
 ![image](https://user-images.githubusercontent.com/87377798/208251238-d966a46e-d77d-4a3c-bd27-95eddb6aad41.png)
 
 - เลือก os debian-live-11.5.0-amd64-xfce.iso
@@ -302,7 +302,6 @@ systemctl status qemu-guest-agent
 ``
 
 เสร็จสิ้นการเปิดใช้งาน
-
 
 # 3.create container template (select from CT list)
  - คลิกที่ Create CT
