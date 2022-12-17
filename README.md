@@ -82,6 +82,11 @@
 
 # 2.clone master vm to tamplate
   - กดคลิกขวาที่ VM ที่เราสร้างไว้ และเลือก Convert to template
+  
+# 3.create container template (select from CT list)
+ -คลิกที่ Create CT
+ ![314428517_1526729121088217_7066711563116917479_n](https://user-images.githubusercontent.com/87377798/208245886-9e74ed75-00b8-40f9-b1b2-37f0bcf635fc.png)
+
 
 
 
