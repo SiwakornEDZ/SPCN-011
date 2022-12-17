@@ -18,7 +18,7 @@
 ![image](https://user-images.githubusercontent.com/87377798/208241789-aa0113ab-7004-4753-abd3-e9850949b917.png)
 # เมื่อกด Create เสร็จสิ้นจะได้ result ดังรูป
 ![image](https://user-images.githubusercontent.com/87377798/208241896-817b7686-ded9-48be-b5fe-55896fdc835b.png)
-# 2.ทำการติดตั้ง Ununtu
+# ทำการติดตั้ง Ununtu
 ![image](https://user-images.githubusercontent.com/87377798/208241968-95d921e6-46c0-429d-8452-1187fc7eab46.png)
 ![image](https://user-images.githubusercontent.com/87377798/208242012-e650a89c-b0bc-44c3-a322-c55f952c31d8.png)
 ![image](https://user-images.githubusercontent.com/87377798/208242025-79ad1964-a2dc-40f9-954a-da9e862104be.png)
@@ -79,6 +79,10 @@
 - crontab -e
 - พิมคำสั่งใน Editor @hourly /usr/sbin/ntpdate th.pool.ntp.org
 ![image](https://user-images.githubusercontent.com/87377798/208245215-e6ac9c94-fb77-4d5a-8012-650b8b2e5b52.png)
+
+# 2.clone master vm to tamplate
+-- กดคลิกขวาที่ VM ที่เราสร้างไว้ และเลือก Convert to template
+
 
 
 
