@@ -231,13 +231,41 @@ sudo systemctl start qemu-guest-agent           //เปิดใช้ QEMU Gue
 sudo systemctl status qemu-guest-agent          //เช็คสถานะของ QEMU Guest Agent 
 ```
 
+- check ip clone VM
+
+```
+ip a
+```
+- clone 1
+
+![image](https://user-images.githubusercontent.com/87377798/208249626-df0aa680-a795-445d-bee0-56787cf3ced0.png)
+
+
+- clone 2
+
+![image](https://user-images.githubusercontent.com/87377798/208249591-3a82c81e-89ba-4271-b2b0-e861c4917005.png)
+
+- check machine id clone VM
+
+- clone 1
+
+![image](https://user-images.githubusercontent.com/87377798/208249757-511274d9-4bb8-4eec-9f3f-5fb3551a5708.png)
+
+- clone 2
+
+![image](https://user-images.githubusercontent.com/87377798/208249793-3180e70b-fd02-48bd-bac3-0d50ad93649d.png)
+
+
 - คำสั่งที่ใช้เปลี่ยน IP ของ VM ที่ clone มาทั้ง 2 ตัวเพื่อให้ IP ของ VM ไม่ซ้ำกัน
 
 ```
-sudo -i                                           
+sudo -i      
+ls -l /var/lib/dbus/machine-id 
 rm /var/lib/dbus/machine-id     
 nano /etc/machine-id                              //ลบข้อมูลทั้งหมดใน machine-id
+cat /etc/machine-id                               //เช็คไฟล์ machine-id 
 ln -s /etc/machine-id /var/lib/dbus/machine-id    //link ข้อมูลในไฟล์ machine-id
+ls -l /var/lib/dbus/machine-id                    //เลือกทั้งหมด
 reboot                                            
 ```
 
