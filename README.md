@@ -108,11 +108,36 @@
 
 ![image](https://user-images.githubusercontent.com/87377798/208248180-c3d31dcf-9af1-4922-89ca-aafdffcc3253.png)
 
+- คำสั่งในการ change host name
 
 ```
 sudo hostnamectl set-hostname [ชื่อที่ต้องการเปลี่ยน]
 ```
 
+- คำสั่งในการ Set Time
+
+```
+date                                            //เอาไว้เพื่อเช็ค local time ปัจจุบัน
+sudo timedatectl set-timezone Asia/Bangkok      //เปลี่ยน timezone ให้เป็น Bangkok
+```
+
+- คำสั่งเกี่ยวกับ QEMU Guest Agent
+
+```
+sudo apt install qemu-guest-agent               //ติดตั้ง QEMU Guest Agent
+sudo systemctl start qemu-guest-agent           //เปิดใช้ QEMU Guest Agent
+sudo systemctl status qemu-guest-agent          //เช็คสถานะของ QEMU Guest Agent 
+```
+
+- คำสั่งที่ใช้เปลี่ยน IP ของ VM ที่ clone มาทั้ง 2 ตัวเพื่อให้ IP ของ VM ไม่ซ้ำกัน
+
+```
+sudo -i                                           
+rm /var/lib/dbus/machine-id     
+nano /etc/machine-id                              //ลบข้อมูลทั้งหมดใน machine-id
+ln -s /etc/machine-id /var/lib/dbus/machine-id    //link ข้อมูลในไฟล์ machine-id
+reboot                                            
+```
 
 # 2. create vm from other os
   
