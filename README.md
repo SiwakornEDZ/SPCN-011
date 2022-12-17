@@ -104,7 +104,10 @@
 
 ![image](https://user-images.githubusercontent.com/87377798/208248180-c3d31dcf-9af1-4922-89ca-aafdffcc3253.png)
 
+
+```
 sudo hostnamectl set-hostname [ชื่อที่ต้องการเปลี่ยน]
+```
 
 
 # 2. create vm from other os
